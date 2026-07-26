@@ -1,0 +1,14 @@
+- type: github
+  icon: "fab fa-github"
+
+- type: tangential
+  icon: "fas fa-code-branch"
+  url: "https://github.com/TangentialSolutions"
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true

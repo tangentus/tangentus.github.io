@@ -1,0 +1,2 @@
+- Write a "publish" script that does the `mv` command
+- Figure out how I can host or serve "draft" posts so that folks can review them

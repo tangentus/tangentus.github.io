@@ -1,0 +1,8 @@
+platforms:
+  - type: Linkedin
+    icon: "fab fa-linkedin"
+    link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
+
+  - type: Reddit
+    icon: "fab fa-reddit"
+    link: "https://www.reddit.com/submit?url=URL&title=TITLE"

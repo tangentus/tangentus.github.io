@@ -1,9 +1,31 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+# Bundler cache
+.bundle
 vendor
 
-# IntelliJ
+# Jekyll cache
+.jekyll-cache
+.jekyll-metadata
+_site
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
 .idea
-*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Generated theme assets
+_sass/vendors
+assets/js/dist
+
+# Hidden system files
+*~
+.DS_Store
+Thumbs.db

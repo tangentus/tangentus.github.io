@@ -32,6 +32,19 @@ Drafts are written to `_drafts/` and can be previewed locally with:
 bash tools/run.sh --drafts
 ```
 
+## Publish a draft
+
+Move a publication-ready draft from `_drafts/` to `_posts/`:
+
+```console
+bash tools/publish.sh 2026-07-25-day-0-rif-aftermath.md
+bash tools/publish.sh _drafts/2026-07-25-day-0-rif-aftermath.md
+```
+
+Shell-expanded paths such as `_drafts/*.md` also work when they resolve to one
+draft. Published filenames must use Jekyll's `YYYY-MM-DD-slug.md` format. The
+command refuses to overwrite an existing post.
+
 ## Validation
 
 Build the production site and check its generated HTML:
@@ -40,5 +53,5 @@ Build the production site and check its generated HTML:
 bash tools/test.sh
 ```
 
-Publishing is handled by the GitHub Pages workflow in
+Deployment is handled by the GitHub Pages workflow in
 `.github/workflows/pages-deploy.yml`.

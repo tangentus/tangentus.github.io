@@ -135,7 +135,8 @@ slug="$(
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 repo_root="$(cd "$script_dir/.." && pwd)"
 draft_dir="$repo_root/_drafts"
-draft_path="$draft_dir/$slug.md"
+draft_date="$(date '+%Y-%m-%d')"
+draft_path="$draft_dir/$draft_date-$slug.md"
 
 [[ ! -e "$draft_path" ]] || fail "draft already exists: $draft_path"
 

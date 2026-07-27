@@ -6,7 +6,53 @@ description: Software projects and experiments from Trev and Tangential Solution
 ---
 
 Software is most interesting when it turns a vague idea into something useful.
-Here is one of the projects that has shaped how I think about flexible systems.
+Here are a few projects that have shaped how I think about useful, flexible
+systems.
+
+<article class="project-card">
+  <div class="project-card__header">
+    <div>
+      <p class="project-card__eyebrow">Tangential Solutions</p>
+      <h2>Family Sessions</h2>
+    </div>
+    <a class="project-card__link" href="https://famsesh.broaddus.app" target="_blank" rel="noopener noreferrer">
+      Visit Family Sessions <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+
+  <p>
+    A family activity tracker built for quickly logging how time is spent,
+    whether an activity is happening now or was completed earlier.
+  </p>
+
+  <ul class="project-card__tags" aria-label="Technologies">
+    <li>Ruby on Rails</li>
+    <li>Hotwire</li>
+    <li>SQLite</li>
+    <li>Progressive web app</li>
+  </ul>
+
+  <h3>What makes it interesting</h3>
+
+  <ul>
+    <li>
+      A session can include multiple children, while validation prevents
+      overlapping timers for the same child.
+    </li>
+    <li>
+      Quick-start timers and manual entries support both real-time tracking and
+      logging activities after the fact.
+    </li>
+    <li>
+      Custom activity categories make the tracker adaptable to each household
+      instead of prescribing a single routine.
+    </li>
+    <li>
+      Daily and weekly rollups feed gentle goals for doing at least—or no more
+      than—a chosen amount of an activity.
+    </li>
+  </ul>
+</article>
 
 <article class="project-card">
   <div class="project-card__header">

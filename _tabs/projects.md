@@ -58,6 +58,30 @@ systems.
   <div class="project-card__header">
     <div>
       <p class="project-card__eyebrow">Tangential Solutions</p>
+      <h2>Budget</h2>
+    </div>
+    <a class="project-card__link" href="https://dash.broaddus.app/budget" target="_blank" rel="noopener noreferrer">
+      Open Budget <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+
+  <p>
+    A personal finance app for planning monthly income and category budgets,
+    recording transactions, and seeing at a glance how much remains to spend.
+  </p>
+
+  <ul class="project-card__tags" aria-label="Technologies">
+    <li>Ruby on Rails</li>
+    <li>React</li>
+    <li>TypeScript</li>
+    <li>PostgreSQL</li>
+  </ul>
+</article>
+
+<article class="project-card">
+  <div class="project-card__header">
+    <div>
+      <p class="project-card__eyebrow">Tangential Solutions</p>
       <h2>WebScrape API</h2>
     </div>
     <a class="project-card__link" href="https://github.com/TangentialSolutions/web-scrape-api" target="_blank" rel="noopener noreferrer">

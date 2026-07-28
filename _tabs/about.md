@@ -35,4 +35,4 @@ an effort to bring bright engineers together to build solutions that sit
 ## Let's connect
 
 You can find my work on [GitHub](https://github.com/tangentus){:target="_blank" rel="noopener noreferrer"}
-or reach me at [trevor.broaddus@hey.com](mailto:trevor.broaddus@hey.com).
+or reach me at [this totally obscured email address](mailto:totals-work.6d@icloud.com).

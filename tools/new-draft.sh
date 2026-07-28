@@ -38,15 +38,30 @@ append_unique() {
   local value="$1"
   local array_name="$2"
   local existing
-  local -n values="$array_name"
+  local -a values
 
   [[ -n "$value" ]] || return 0
 
-  for existing in "${values[@]}"; do
-    [[ "$existing" != "$value" ]] || return 0
-  done
+  case "$array_name" in
+    categories)
+      [[ ${categories[0]+set} ]] && values=("${categories[@]}")
+      ;;
+    tags)
+      [[ ${tags[0]+set} ]] && values=("${tags[@]}")
+      ;;
+    *) fail "unknown list: $array_name" ;;
+  esac
 
-  values+=("$value")
+  if [[ ${values[0]+set} ]]; then
+    for existing in "${values[@]}"; do
+      [[ "$existing" != "$value" ]] || return 0
+    done
+  fi
+
+  case "$array_name" in
+    categories) categories+=("$value") ;;
+    tags) tags+=("$value") ;;
+  esac
 }
 
 append_list() {
@@ -72,14 +87,26 @@ yaml_list() {
   local array_name="$1"
   local item
   local separator=""
-  local -n values="$array_name"
+  local -a values
+
+  case "$array_name" in
+    categories)
+      [[ ${categories[0]+set} ]] && values=("${categories[@]}")
+      ;;
+    tags)
+      [[ ${tags[0]+set} ]] && values=("${tags[@]}")
+      ;;
+    *) fail "unknown list: $array_name" ;;
+  esac
 
   printf '['
-  for item in "${values[@]}"; do
-    printf '%s' "$separator"
-    yaml_quote "$item"
-    separator=', '
-  done
+  if [[ ${values[0]+set} ]]; then
+    for item in "${values[@]}"; do
+      printf '%s' "$separator"
+      yaml_quote "$item"
+      separator=', '
+    done
+  fi
   printf ']'
 }
 

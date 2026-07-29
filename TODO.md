@@ -1,2 +1,2 @@
-- Write a "publish" script that does the `mv` command
 - Figure out how I can host or serve "draft" posts so that folks can review them
+- Write a skill for my "editor in chief" prompting that I keep doing

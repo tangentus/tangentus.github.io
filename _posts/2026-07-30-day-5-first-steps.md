@@ -1,0 +1,23 @@
+---
+title: 'Day 5: First steps'
+description:
+categories: ['RIF']
+tags: ['daily', 'AI', 'skills', 'interview', 'unemployment']
+toc: true
+---
+
+# Day 5
+
+I started the morning off a little less focused in my Bible, just reading for pleasure. I'm reading 1 Peter and letting the Word wash over me. That's a nice change of pace once you do some studying in the Bible. Today I had two interviews with potential companies; one interview was with a recruiter for the role and the other was my first interview with a team member from a potential company. Both of those happened later in the day so I had the day to prepare. I also have an interview tomorrow—a coding session through a platform called `Karat`—so I prepared for that as well.
+
+I felt a little under the weather today which made it feel like a bit of a bleak day. In addition to that, my wife wasn't feeling 100% and my 3 boys have 10000% more energy than half the world, so that was tough. I'm mentioning this to say that I didn't feel productive at all today. There were several moments that I just stared at my screen waiting for it to slap me out of my trance so I could get back after it. I'm not going to get hung up on the fact that I had some "lazy" moments in my day or say something like "I had to take care of my mental wellness, man." Vibes kinda sucked today and I didn't get as much done as I had hoped.
+
+BUT, I did get some stuff done. Namely, I applied for another position that seemed like a strong fit for my experience based on what was in my resume. I built out an AI-generated set of technical questions that I answered and resubmitted to AI to prep for my coding interview and other upcoming interviews. This was actually really fun—sometimes, as an engineer, you don't really know how to verbalize your technical capabilities. At least, I don't. This was a great exercise in wording myself accurately and providing details that technical leaders are looking for. For the record, my answers were all strong; however, some of them lacked details that explained concepts at their most basic level. One of my answers was outright wrong (I'll call it a human hallucination). It was a useful exercise, too, and I highly recommend folks in the job market do this. You can make your own highly tailored test, complete the test (honesty here guys, otherwise it doesn't matter that you took the test), and have a genius review your answers and provide you with feedback to get better.
+
+Today I spent time building a few skills out for things that I'm doing right now, namely blogging and job applications. I wrote a skill that edits a document with a focus on maintaining the integrity of the author's ideas—no AI-generated substance—while suggesting alternate sentences or stylistic changes back to the person prompting it. This one is great because I am teribl at spulling werds :). Funny enough, I didn't have to ask my agent to ignore that sentence, it knew comedy! The other skill was a resume and cover-letter tailor system. Again, the key attribute of these skills is honesty in the artifact that is produced. I write my content first, then have AI make spelling and grammar fixes + stylistic suggestions. The resume tailor takes as input either recruiter info for the role or the role description itself plus a GDoc to modify (which is the resume). It focuses on reordering and emphasizing aspects of the resume that seem like important topics for the role at hand. It has been told NOT to invent abilities for the sake of the resume and emphasizes in its suggestions to make sure the claims are _true_ before committing to them. The cover-letter tailoring is the same—it requires an _already_ written cover letter plus a role description and helps reorganize and emphasize topics already in the cover letter if they jibe with the role description. I'll be publishing these to ClawHub or something this week.
+
+In building these editing tools, I realized the power in writing your _own_ content and having AI provide assistance. The content is human-written (which you can feel, IMHO) and AI-polished. That being said, I have some ideas for AI-generated content, but for that I'll tag all of the content clearly so that folks know it was human-_reviewed_, not human-_written_.
+
+The interviews went great today and I'm hopeful to move on to the next stages. I'm also a little nervous and scared I wasn't good enough or said the wrong thing the wrong way. So it's a good thing I've been praying for the _right_ candidate to get selected for these teams. It takes the worry out of my hands and leaves it up to God!
+
+God is Good folks, _all_ the time. God Bless!

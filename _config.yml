@@ -82,6 +82,9 @@ kramdown:
       start_line: 1
 
 collections:
+  ai_posts:
+    output: true
+    sort_by: date
   tabs:
     output: true
     sort_by: order
@@ -105,6 +108,14 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: ""
+      type: ai_posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      permalink: /ai-posts/:name/
 
 sass:
   style: compressed

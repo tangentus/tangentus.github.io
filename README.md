@@ -45,6 +45,30 @@ Shell-expanded paths such as `_drafts/*.md` also work when they resolve to one
 draft. Published filenames must use Jekyll's `YYYY-MM-DD-slug.md` format. The
 command refuses to overwrite an existing post.
 
+## Publish an AI-generated post
+
+AI-generated posts belong in `_ai_posts/`, not `_posts/`. This keeps them out
+of the main homepage, archives, and post feed while publishing them under the
+dedicated `/ai-posts/` tab.
+
+Use a `YYYY-MM-DD-slug.md` filename and include an explicit `date` in the front
+matter because custom Jekyll collections do not infer dates the way `_posts`
+does:
+
+```yaml
+---
+title: "(AI Generated) Example title"
+date: 2026-08-02 08:00:00 -0400
+description: A short summary for the AI Posts tab.
+categories: ['RIF-AI']
+tags: ['ai-written']
+toc: true
+---
+```
+
+The AI automation should create its files in `_ai_posts/` using this front
+matter. The existing disclosure should remain in the body of every AI post.
+
 ## Validation
 
 Build the production site and check its generated HTML:

@@ -1,7 +1,7 @@
 ---
 title: About
 icon: fas fa-info-circle
-order: 5
+order: 6
 description: About Trevor Broaddus—Christian, husband, father, and software engineer.
 ---
 

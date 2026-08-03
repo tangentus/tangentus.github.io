@@ -166,6 +166,42 @@
   padding: 0.28rem 0.7rem;
 }
 
+.ai-post-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.ai-post-card {
+  background: var(--card-bg);
+  border: 1px solid var(--main-border-color);
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+  padding: 1.4rem 1.6rem;
+}
+
+.ai-post-card h2 {
+  margin: 0.25rem 0 0.75rem;
+}
+
+.ai-post-card h2 a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.ai-post-card h2 a:hover {
+  color: var(--link-color);
+}
+
+.ai-post-card__eyebrow {
+  color: var(--text-muted-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
 @media (max-width: 575.98px) {
   .project-card__header {
     align-items: stretch;

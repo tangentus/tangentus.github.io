@@ -5,5 +5,6 @@
 Jekyll::Hooks.register :site, :post_read do |site|
   locale = site.config.fetch("lang", "en")
   tabs = site.data.dig("locales", locale, "tabs")
+  tabs["ai-posts"] = "AI Posts" if tabs
   tabs["projects"] = "Projects" if tabs
 end

@@ -2,7 +2,7 @@
 title: 'Day 5: First steps'
 description:
 categories: ['RIF']
-tags: ['daily', 'AI', 'skills', 'interview', 'unemployment']
+tags: ['daily', 'ai', 'skills', 'interview', 'unemployment']
 toc: true
 ---
 

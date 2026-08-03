@@ -69,6 +69,18 @@ toc: true
 The AI automation should create its files in `_ai_posts/` using this front
 matter. The existing disclosure should remain in the body of every AI post.
 
+## Unpublish a post
+
+Move a published post from `_posts/` back to `_drafts/`:
+
+```console
+bash tools/unpublish.sh 2026-07-25-day-0-rif-aftermath.md
+bash tools/unpublish.sh _posts/2026-07-25-day-0-rif-aftermath.md
+```
+
+Shell-expanded paths such as `_posts/*.md` also work when they resolve to one
+post. The command refuses to overwrite an existing draft.
+
 ## Validation
 
 Build the production site and check its generated HTML:

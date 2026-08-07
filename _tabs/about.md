@@ -11,11 +11,11 @@ I am a Christian, husband, father, and engineer. Faith is the most important
 part of who I am, and it shapes how I think about people, work, and the things
 worth building.
 
-My family includes my wife and our two beautiful sons: one in heaven watching
-over us, and one who blesses us every day that he breathes.
+My family includes my wife and our four beautiful children: one in heaven
+watching over us, and three who bless us every day that they breathe.
 
-Away from a keyboard, I enjoy longboarding, playing guitar, making my son laugh,
-making my wife laugh, and saying yes to just about any adventure.
+Away from a keyboard, I enjoy longboarding, playing guitar, making my children
+laugh, making my wife laugh, and saying yes to just about any adventure.
 
 ## Thoughtful engineering
 
